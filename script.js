@@ -10,7 +10,7 @@ function createParticles() {
     const particles = document.getElementById('particles');
     const particleEmojis = ['❤️', '💕', '💖', '💗', '🌸', '🌺', '✨', '💫', '🦋'];
 
-    for (let i = 0; i < 15; i++) {
+    for (let i = 0; i < 25; i++) {
         const particle = document.createElement('div');
         particle.className = 'particle';
         particle.innerHTML = particleEmojis[Math.floor(Math.random() * particleEmojis.length)];
@@ -244,4 +244,5 @@ photoStyle.textContent = `
         }
     }
 `;
+
 document.head.appendChild(photoStyle);
